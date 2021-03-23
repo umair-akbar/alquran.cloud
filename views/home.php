@@ -14,12 +14,12 @@
   </div>
 
   <h2>
-    Al Quran Cloud - A Full Featured Quran App
+    Anonym - Full Featured Quran App
   </h2>
   <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
           <p>
-          The Al Quran Cloud is a simple web app that allows you to read and hear the Quran being recited by Juz, Surah or Ayah. You can also play the whole Quran in the browser. In addition, you can read a variety of translations alongside the arabic text.
+          Anonym is a simple web app that allows you to read and hear the Quran being recited by Juz, Surah or Ayah. You can also play the whole Quran in the browser. In addition, you can read a variety of translations alongside the arabic text.
           </p>
     </div>
   </div>
@@ -66,7 +66,7 @@
             All code for this app is open source (and built with open source tools). You can use it or contribute to it.
         </p>
         <p>
-            <a href="https://github.com/islamic-network/alquran-web-app" target="_blank" class="btn btn-primary">Code @ GitHub</a>
+            <a href="https://github.com/umair-akbar/alquran.cloud/" target="_blank" class="btn btn-primary">Code @ GitHub</a>
         </p>
     </div>
 
