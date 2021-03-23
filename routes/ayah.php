@@ -12,7 +12,7 @@ $app->get('/ayah', function ($request, $response, $args) {
 
     return $this->view->render($response, 'ayah.php', [
         'pageTitle' => 'Quran - Surah ' . $ayah->data->surah->englishName . ' Ayah ' . $ayah->data->numberInSurah . ' (' . $ayah->data->surah->number . ':' . $ayah->data->numberInSurah . ')',
-		'metaDescription' => 'AlQuran Cloud',
+		'metaDescription' => 'Heyyy',
 		'ayah' => $ayah,
 		'reference' => $reference,
 		'editions' => [
@@ -31,7 +31,7 @@ $app->get('/ayah/{reference}', function ($request, $response, $args) {
 	$ayah = $this->client->AlQuranCloudApi->ayah($reference, 'quran-uthmani-quran-academy');
     return $this->view->render($response, 'ayah.php', [
         'pageTitle' => 'Quran - Surah ' . $ayah->data->surah->englishName . ' Ayah ' . $ayah->data->numberInSurah . ' (' . $ayah->data->surah->number . ':' . $ayah->data->numberInSurah . ')',
-		'metaDescription' => 'AlQuran Cloud',
+		'metaDescription' => 'Heyyy',
 		'ayah' => $ayah,
 		'reference' => $reference,
 		'editions' => [
@@ -51,7 +51,7 @@ $app->get('/ayah/{reference}/{edition}', function ($request, $response, $args) {
 	$ayah = $this->client->AlQuranCloudApi->ayah($reference, 'quran-uthmani-quran-academy');
     return $this->view->render($response, 'ayah.php', [
         'pageTitle' => 'Quran - Surah ' . $ayah->data->surah->englishName . ' Ayah ' . $ayah->data->numberInSurah . ' (' . $ayah->data->surah->number . ':' . $ayah->data->numberInSurah . ')',
-		'metaDescription' => 'AlQuran Cloud',
+		'metaDescription' => 'Heyyy',
 		'ayah' => $ayah,
 		'reference' => $reference,
 		'ayahEdition' => $this->client->AlQuranCloudApi->ayah($reference, $edition),
